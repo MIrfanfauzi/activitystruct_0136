@@ -28,4 +28,13 @@ int main() {
     cin >> mhs.alamat.Kota;
     cout << "Umur Mahasiswa : ";
     cin  >> mhs.umur;
+
+    cout << endl;
+    cout << "\n NIM : " << mhs.nim;
+    cout << "\n Nama : " << mhs.nama;
+    cout << "\n Alamat : ";
+    cout << "\n \tDesa : " << mhs.alamat.Desa;
+    cout << "\n \tKota : " << mhs.alamat.Kota;
+    cout << "\n Umur : " << mhs.umur;
+
 }
